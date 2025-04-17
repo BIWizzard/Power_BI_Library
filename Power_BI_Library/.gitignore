@@ -1,0 +1,10 @@
+# Ignore unnecessary files
+*.tmp
+*.cache
+*.pbix.lock
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
