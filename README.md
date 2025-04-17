@@ -19,6 +19,7 @@ This repository was created to:
 2. [Repository Content](#repository-content)
 3. [Contribution Guidelines](#contribution-guidelines)
 4. [License](#license)
+5. [Development Setup](#development-setup)
 
 ---
 
@@ -62,6 +63,24 @@ Contributions are welcome! If you have techniques, components, or widgets you'd 
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the content as per the license terms.
+
+---
+
+## Development Setup
+
+1. Create virtual environment:
+```bash
+python -m venv .venv
+```
+
+2. Activate virtual environment:
+- Windows: `.venv\Scripts\activate`
+- Unix/MacOS: `source .venv/bin/activate`
+
+3. Install dependencies (if any):
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
